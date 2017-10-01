@@ -1,5 +1,10 @@
 # Milestone 1: Stranger Things Light Wall
-For the first milestone, you will be building "Addressable" RGB LEDs which can be connected in series with one another and can have patterns generated from them. You will need to utilize two development boards for this: the first is the one to control the RGB LED, and the second is to be a master for the whole LED Chain.
+For the first milestone, you will be building "Addressable" RGB LEDs which can be connected in series with one another and can have patterns generated from them. You will need to utilize any development board of your choosing to generate a RGB node. By the week of _**OCTOBER 11**_, you will be expected to come into lab with a fully operational RGB node ready to be connected together. Your node will be tested individually during that lab period, with your documentation (code and readme) being graded throughout the week.
+
+Your grade will be broken up as follows:
+* RGB Node Performance 60%
+* Code Documentation 20%
+* Readme 20%
 
 ## Background Theory
 In the following scene from Netflix's "Stranger Things", Will Byers stuck in a parallel dimension can only communicate to his mother by causing Christmas Lights to light up. The mother then strings up a set of lights like a Ouija Board so they can communicate back and forth.
@@ -48,3 +53,14 @@ The following would be received by your node.
 | Byte 5      | 0xFF    | Green (next node): 100% duty cycle |
 | Byte 6      | 0x00    | Blue (next node): 0% duty cycle |
 | Byte 7      | 0x0D    | End of Message Check byte |
+
+After taking Bytes 1-3 for use in the current node, the message would be repackaged into a new message and transmitted to the next node.
+
+| Byte Number | Content | Meaning |
+| ----------- | ------- | ------- |
+| Byte 0      | 0x05    | 5 total bytes in the package |
+| Byte 1      | 0x40    | Red (current node): 25% duty cycle |
+| Byte 2      | 0xFF    | Green (current node): 100% duty cycle |
+| Byte 3      | 0x00    | Blue (current node): 0% duty cycle |
+| Byte 4      | 0x0D    | End of Message Check byte |
+
