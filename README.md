@@ -34,3 +34,16 @@ For starters, we need to establish how each of these node know how many bytes ar
 | Byte 0      | Number of bytes (N) including this byte | 0x50 (80 bytes) |
 | Bytes 1-(N-2) | RGB colors for each node | 0xFF (red) 0x00 (green) 0x88 (blue) ... |
 | Byte N-1 | End of Message Character | 0x0D (carriage return) |
+
+#### Example communication between 2 nodes
+The following would be received by your node.
+| Byte Number | Content | Meaning |
+| ----------- | ------- | ------- |
+| Byte 0      | 0x08    | 8 total bytes in the package |
+| Byte 1      | 0x7E    | Red (current node): 50% duty cycle |
+| Byte 2      | 0x00    | Green (current node): 0% duty cycle |
+| Byte 3      | 0xFF    | Blue (current node): 100% duty cycle |
+| Byte 4      | 0x40    | Red (next node): 25% duty cycle |
+| Byte 5      | 0xFF    | Green (next node): 100% duty cycle |
+| Byte 6      | 0x00    | Blue (next node): 0% duty cycle |
+| Byte 7      | 0x0D    | End of Message Check byte |
