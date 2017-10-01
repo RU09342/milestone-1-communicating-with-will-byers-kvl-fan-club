@@ -30,7 +30,7 @@ To make sure that everyone can talk with one another, we need to ensure that eve
 For starters, we need to establish how each of these node know how many bytes are to be expected for each message. Since each node will be using 3 bytes to set their RGB, we would need at least 3bytes\* 26 nodes = 78 bytes. For debugging purposes, we would like to have at least one byte at the end of the message so that our head node can determine whether or not each node removed the first 3 bytes from their received message. This means we will need an additional byte at the end of the message, bringing our total to 79 bytes. It would also be extremely convenient if each node could know how many bytes to expect in a message. For this we can easily add a byte to the beginning of our message to tell each node how many bytes to expect, bringing the total to 80 bytes. 
 
 | Byte Number |  Contents | Example |
-| ___________ | _________ | _______ |
+| ----------- | --------- | ------- |
 | Byte 0      | Number of bytes (N) including this byte | 0x50 (80 bytes) |
 | Bytes 1-(N-2) | RGB colors for each node | 0xFF (red) 0x00 (green) 0x88 (blue) ... |
 | Byte N-1 | End of Message Character | 0x0D (carriage return) |
