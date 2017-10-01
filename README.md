@@ -37,6 +37,7 @@ For starters, we need to establish how each of these node know how many bytes ar
 
 #### Example communication between 2 nodes
 The following would be received by your node.
+
 | Byte Number | Content | Meaning |
 | ----------- | ------- | ------- |
 | Byte 0      | 0x08    | 8 total bytes in the package |
