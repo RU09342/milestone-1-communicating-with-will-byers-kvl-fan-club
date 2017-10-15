@@ -1,0 +1,22 @@
+/*
+ * initTIMER.c
+ *
+ *  Created on: Oct 12, 2017
+ *      Author: Damon Boorstein
+ */
+
+#include <msp430fr6989.h>
+
+void initTIMER(){
+    UCA0CTL1 |= UCSSEL_2 + UCSWRST;           // SMCLK + USCI Software Reset
+    UCA0CTL0 |= UCSWRST;                      // USCI Software Reset
+    UCA1CTL1 |= UCSWRST;
+    UCA1CTL0 |= UCSWRST;
+
+    UCA0BR0 = 104;                            // 1MHz 9600
+    UCA0BR1 = 0;                              // 1MHz 9600
+    UCA0MCTLW = UCBRS0;                       // Modulation UCBRSx = 1
+
+    UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+    UCA0IE |= UCRXIE;                          // Enable USCI_A0 RX interrupt
+}

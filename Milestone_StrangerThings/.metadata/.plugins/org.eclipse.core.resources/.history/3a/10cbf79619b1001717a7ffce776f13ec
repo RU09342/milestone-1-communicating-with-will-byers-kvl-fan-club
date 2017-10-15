@@ -1,0 +1,95 @@
+/***Milestone 1: Stranger Things Light Wall
+ *      Author: Damon Boorstein
+ *              Rowan University
+ *      Date Created: 10/12/17
+ *          Updated: 10/13/17
+ */
+
+#include <msp430fr6989.h>
+#include "initGPIO.h"
+#include "initTIMER.h"
+
+int selected;
+int colorsHigh;
+int colorsLow;
+
+void initGPIO();
+void initTIMER();
+
+int main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+	PM5CTL0 &= ~LOCKLPM5;       // Disable GPIO default high-impedance mode
+    if (CALBC1_1MHZ == 0xFF)                    // If calibration constant erased
+    {
+        while(1);                               // do not load, trap CPU!!
+    }
+
+    CSCTL1 = DCOFSEL0;                          // Select lowest DCOx and MODx settings
+                                            // Set DCO
+    void initGPIO();
+    void initTIMER();
+
+    __bis_SR_register(LPM0_bits + GIE);       // Enter LPM0, interrupts enabled
+
+	return 0;
+}
+
+// UART interrupt service routine
+#pragma vector=USCI_A0_VECTOR
+__interrupt void USCI_A0_ISR(void)
+{
+    selected = UCA0RXBUF;   // Get new value for selected color
+
+    if(selected > 11)       // If value out of range, set default 0 (red)
+    {
+        selected = 0;
+    }
+}
+
+// Timer0_A0 interrupt service routine
+#pragma vector=TIMER0_A0_VECTOR
+__interrupt void TIMER0_A0_ISR (void)
+{
+    if(P1OUT & BIT0)                        // Check current output level
+    {
+        TA0CCR0 += colorsLow[selected][2];  // Low period (Blue LED on)
+        P1OUT = 0;      // TB0.0 not brought out on pin, so set manually
+    }
+    else
+    {
+        TA0CCR0 += colorsHigh[selected][2]; // High period (Blue LED off)
+        P1OUT = BIT0;   // TB0.0 not brought out on pin, so set manually
+    }
+}
+
+// Timer0_A1 Interrupt Vector (TBIV) handler
+#pragma vector=TIMER0_A1_VECTOR
+__interrupt void TIMER0_A1_ISR(void)
+{
+    switch(__even_in_range(TA0IV,14))
+    {
+        case 0: break;
+        case 2: if(TA0CCTL1 & CCI)          // Check current timer pin state
+                {
+                    TA0CCR1 += colorsHigh[selected][0]; // High period (Red off)
+                }
+                else
+                {
+                    TA0CCR1 += colorsLow[selected][0];  // Low period (Red on)
+                }
+                break;
+        case 4: if(TA0CCTL2 & CCI)          // Check current timer pin state
+                {
+                   TA0CCR2 += colorsHigh[selected][1];  // High (Green off)
+                }
+                else
+                {
+                   TA0CCR2 += colorsLow[selected][1];   // Low period (Green on)
+                }
+                break;
+        default:    break;
+    }
+}
+
+

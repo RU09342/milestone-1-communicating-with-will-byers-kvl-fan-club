@@ -1,0 +1,68 @@
+/*  Milestone 1: Stranger Things Light Wall
+ *      Author: Damon Boorstein
+ *              Rowan University
+ *      Date Created: 10/12/17
+ *          Updated: 10/13/17
+ */
+
+
+#include <initGPIO.h>
+#include <initTimer.h>
+#include <initUART.h>
+#include <msp430fr6989.h>
+
+void initGPIO();
+void initTimer();
+void initUART();
+
+int main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+
+    initGPIO();            // initialize GPIOs and disable default high impedance mode
+    initTimer();           // initialize Timer module
+    initUART();            // initialize UART registers
+
+    __bis_SR_register(LPM3_bits + GIE);     // enter LPM3, interrupts enabled
+    __no_operation();                       // for debugging
+}
+
+#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
+#pragma vector=USCI_A0_VECTOR
+__interrupt void USCI_A0_ISR(void)
+#elif defined(__GNUC__)
+void __attribute__ ((interrupt(USCI_A0_VECTOR))) USCI_A0_ISR (void)
+#else
+#error Compiler not supported!
+#endif
+{
+  switch(__even_in_range(UCA0IV, USCI_UART_UCTXCPTIFG))
+  {
+    case USCI_NONE: break;
+    case USCI_UART_UCRXIFG:
+      while(!(UCA0IFG&UCTXIFG));
+      UCA0TXBUF = UCA0RXBUF;
+      __no_operation();
+      break;
+    case USCI_UART_UCTXIFG: break;
+    case USCI_UART_UCSTTIFG: break;
+    case USCI_UART_UCTXCPTIFG: break;
+  }
+  P1OUT ^=
+}
+
+//#pragma vector = TIMER0_A1_VECTOR
+//__interrupt void Timer0_A1(void)
+//{
+//
+//}
+//
+//#pragma vector = TIMER1_A1_VECTOR
+//__interrupt void Timer1_A1(void)
+//{
+//
+//}
+
+
+
+

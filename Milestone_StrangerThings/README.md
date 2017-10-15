@@ -1,6 +1,13 @@
-# Milestone 1: Communicating with Will Byers
-*Brendan Nugent and Damon Boorstein,  %
-Intro. to Embedded Systems Section 2,  % 
-Rowan University  %
-Fall 2017*  %
+# Milestone 1: Stranger Things Light Wall
+## by Damon Boorstein and Brendan Nugent
 
+### Dependencies
+None. There is only a main.
+
+### Implementation
+
+#### GPIO
+
+#### Hardware PWM
+
+#### UART and eUART

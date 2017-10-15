@@ -1,0 +1,15 @@
+/*
+ * initTimer.h
+ *
+ *  Created on: Oct 14, 2017
+ *      Author: nomad
+ */
+
+#ifndef INITTIMER_H_
+#define INITTIMER_H_
+
+void initTimer();
+
+
+
+#endif /* INITTIMER_H_ */

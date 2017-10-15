@@ -1,0 +1,752 @@
+[
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmDqj7wyVD1yo&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.BoardOutline.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmDqj7wyVD1yo",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmDqj7wyVD1yo?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.BoardOutline.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmKyTl-vrfKAE&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.BoardOutline.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmKyTl-vrfKAE",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmKyTl-vrfKAE?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.BoardOutline.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmr1ieogrjfDg&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.CmptPlaceTop.txt",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmr1ieogrjfDg",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmr1ieogrjfDg?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.txt",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.CmptPlaceTop.txt",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm46_kt8LoqAc&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.Drill.dri",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm46_kt8LoqAc",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm46_kt8LoqAc?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.dri",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.Drill.dri",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmG3vqK1HWpuM&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.Drill.excellon",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmG3vqK1HWpuM",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmG3vqK1HWpuM?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.excellon",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.Drill.excellon",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmPMV424RdWq0&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerBottom.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmPMV424RdWq0",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmPMV424RdWq0?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerBottom.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm14MxI6_UXG0&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerBottom.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm14MxI6_UXG0",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm14MxI6_UXG0?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerBottom.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm4tL2rkRj8hs&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerInnerBottom.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm4tL2rkRj8hs",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm4tL2rkRj8hs?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerInnerBottom.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm3G8x2BROgmU&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerInnerBottom.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm3G8x2BROgmU",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm3G8x2BROgmU?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerInnerBottom.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmwUE8ZZ4S8c0&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerInnerTop.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmwUE8ZZ4S8c0",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmwUE8ZZ4S8c0?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerInnerTop.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmQq_XQ-PICDc&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerInnerTop.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmQq_XQ-PICDc",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmQq_XQ-PICDc?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerInnerTop.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmYaL2hKsSdbA&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerTop.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmYaL2hKsSdbA",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmYaL2hKsSdbA?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerTop.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm7LFMOWy-UVM&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.LayerTop.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm7LFMOWy-UVM",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm7LFMOWy-UVM?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.LayerTop.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmv9csxdhdObw&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SilkscreenBottom.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmv9csxdhdObw",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmv9csxdhdObw?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SilkscreenBottom.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmF2chzaoZKFM&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SilkscreenBottom.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmF2chzaoZKFM",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmF2chzaoZKFM?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SilkscreenBottom.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmd8KIXgyafok&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SilkscreenTop.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmd8KIXgyafok",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmd8KIXgyafok?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SilkscreenTop.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmp9ZEJVROeCk&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SilkscreenTop.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmp9ZEJVROeCk",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmp9ZEJVROeCk?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SilkscreenTop.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmRipWEKQOxbI&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStencilBottom.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmRipWEKQOxbI",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmRipWEKQOxbI?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStencilBottom.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmnjLGmsobyww&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStencilBottom.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmnjLGmsobyww",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmnjLGmsobyww?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStencilBottom.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmaHX1VlvT06M&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStencilTop.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmaHX1VlvT06M",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmaHX1VlvT06M?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStencilTop.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmc0dgQmU0jlA&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStencilTop.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmc0dgQmU0jlA",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmc0dgQmU0jlA?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStencilTop.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm_y3lXgoahJA&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStopMaskBottom.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm_y3lXgoahJA",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm_y3lXgoahJA?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStopMaskBottom.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm9bjhfw25C5E&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStopMaskBottom.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm9bjhfw25C5E",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm9bjhfw25C5E?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStopMaskBottom.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdm3yEWyFbiYJI&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStopMaskTop.ger",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdm3yEWyFbiYJI",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdm3yEWyFbiYJI?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.ger",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStopMaskTop.ger",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  },
+  {
+    "downloadLink": "api/bundle?vid=msp430_devtools__3.80.01.01&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber",
+    "makeofflineLink": "api/bundles?vids=msp430_devtools__3.80.01.01",
+    "removeofflineLink": "api/resources?id=tdmn6IyMtQxUbw&path=Development Tools/Kits and Boards/MSP-EXP430FR6989/Hardware Design Files/gerber&removeoffline=true",
+    "name": "MSP-EXP430FR6989.SolderStopMaskTop.gpi",
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "tags": [
+      []
+    ],
+    "resourceType": "file",
+    "_id": "tdmn6IyMtQxUbw",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "link": "api/linkTo/tdmn6IyMtQxUbw?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Development%20Tools%2FKits%20and%20Boards%2FMSP-EXP430FR6989%2FHardware%20Design%20Files%2Fgerber&extname=.gpi",
+    "package": "MSP430 Development Tools",
+    "packageId": "msp430_devtools",
+    "packageVersion": "3.80.01.01",
+    "packageUId": "msp430_devtools__3.80.01.01",
+    "packagePath": "tirex-product-tree/msp430_devtools_3_80_01_01",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "type": "resource",
+    "text": "MSP-EXP430FR6989.SolderStopMaskTop.gpi",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Development%20Tools/Kits%20and%20Boards/MSP-EXP430FR6989/Hardware%20Design%20Files/gerber",
+    "packageOrder": 15
+  }
+]

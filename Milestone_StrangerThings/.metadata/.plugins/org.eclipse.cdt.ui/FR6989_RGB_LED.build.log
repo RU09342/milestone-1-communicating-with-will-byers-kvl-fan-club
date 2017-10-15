@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project FR6989_RGB_LED ****
+
+"C:\\ti\\ccsv7\\utils\\bin\\gmake" -k -j 4 all -O 
+'Building file: ../FR2000_RGB_LED.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/bin/cl430" -vmspx --code_model=small --data_model=restricted -O4 --opt_for_speed=0 --use_hw_mpy=F5 --include_path="C:/ti/ccsv7/ccs_base/msp430/include" --include_path="C:/Users/nomad/OneDrive/Documents/School/Rowan/Embedded/Milestone1/Milestone_StrangerThings/UART_SW_Controlled_RGB_LED_Color_Mixing/CCS" --include_path="C:/ti/ccsv7/tools/compiler/ti-cgt-msp430_16.9.3.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR6989__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="FR2000_RGB_LED.d"  "../FR2000_RGB_LED.c"
+
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'FR2000_RGB_LED.obj' failed
+>> WARNING: Small code model requires small data model as well.  Small data model is being used.
+"../FR2000_RGB_LED.c", line 153: error #20: identifier "SYSCFG3" is undefined
+"../FR2000_RGB_LED.c", line 153: error #20: identifier "TBRMP" is undefined
+2 errors detected in the compilation of "../FR2000_RGB_LED.c".
+gmake: *** [FR2000_RGB_LED.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

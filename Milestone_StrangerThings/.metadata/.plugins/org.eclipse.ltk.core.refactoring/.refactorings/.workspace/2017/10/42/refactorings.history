@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/milestone1_strangerthingslightwall/initGPIO.h" element2="/milestone1_strangerthingslightwall/initTimer.h" element3="/milestone1_strangerthingslightwall/initUART.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1508031723123"/>&#x0A;<refactoring comment="Delete resource &apos;uartecho&apos;" deleteContents="false" description="Delete resource &apos;uartecho&apos;" element1="/uartecho" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1508043257767"/>
+</session>

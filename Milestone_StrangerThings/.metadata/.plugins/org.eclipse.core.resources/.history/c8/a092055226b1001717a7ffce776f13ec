@@ -1,0 +1,41 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../lnk_msp430fr6989.cmd 
+
+C_SRCS += \
+../initGPIO.c \
+../initUART.c \
+../main.c 
+
+C_DEPS += \
+./initGPIO.d \
+./initUART.d \
+./main.d 
+
+OBJS += \
+./initGPIO.obj \
+./initUART.obj \
+./main.obj 
+
+OBJS__QUOTED += \
+"initGPIO.obj" \
+"initUART.obj" \
+"main.obj" 
+
+C_DEPS__QUOTED += \
+"initGPIO.d" \
+"initUART.d" \
+"main.d" 
+
+C_SRCS__QUOTED += \
+"../initGPIO.c" \
+"../initUART.c" \
+"../main.c" 
+
+

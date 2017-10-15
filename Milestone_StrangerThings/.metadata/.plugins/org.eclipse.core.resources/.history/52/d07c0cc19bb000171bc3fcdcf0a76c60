@@ -1,0 +1,46 @@
+/*
+ * initGPIO.c
+ *
+ *  Created on: Oct 12, 2017
+ *      Author: Damon Boorstein
+ */
+
+#include <msp430fr6989.h>
+
+#define RECEIVE     BIT3
+#define TRANSMIT    BIT1
+
+void initGPIO(void){
+    P4SEL1 &= ~RECEIVE;             // P1.1 = RXD, P1.2 = TXD
+    P4SEL0 |= RECEIVE;
+
+    P2SEL1 &= ~TRANSMIT;
+    P2SEL0 |= TRANSMIT;
+
+    // Initialize unused ports to reduce current consumption
+    P1DIR = 0xFF;
+    P1OUT = 0x00;
+    P3DIR = 0xFF;
+    P3OUT = 0x00;
+    P5DIR = 0xFF;
+    P5OUT = 0x00;
+    P6DIR = 0xFF;
+    P6OUT = 0x00;
+    P7DIR = 0xFF;
+    P7OUT = 0x00;
+    P8DIR = 0xFF;
+    P8OUT = 0x00;
+    P9DIR = 0xFF;
+    P9OUT = 0x00;
+    PADIR = 0xFF;
+    PAOUT = 0x00;
+    PBDIR = 0xFF;
+    PBOUT = 0x00;
+    PCDIR = 0xFF;
+    PCOUT = 0x00;
+    PDDIR = 0xFF;
+    PDOUT = 0x00;
+    PEDIR = 0xFF;
+    PEOUT = 0x00;
+
+}

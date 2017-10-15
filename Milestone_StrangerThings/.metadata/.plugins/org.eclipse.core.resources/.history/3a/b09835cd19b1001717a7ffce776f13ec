@@ -1,0 +1,15 @@
+/*
+ * initTIMER.h
+ *
+ *  Created on: Oct 12, 2017
+ *      Author: Damon Boorstein
+ */
+
+#ifndef INITUART_H_
+#define INITUART_H_
+
+void initTIMER();
+
+
+
+#endif /* INITUART_H_ */

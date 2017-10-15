@@ -1,0 +1,26 @@
+/*
+ * initTimer.c
+ *
+ *  Created on: Oct 14, 2017
+ *      Author: nomad
+ */
+
+#include <msp430fr6989.h>
+
+void initTimer(){
+      CSCTL0_H = CSKEY >> 8;                    // Unlock clock registers
+      CSCTL1 = DCOFSEL_3 | DCORSEL;             // Set DCO to 8MHz
+      CSCTL2 = SELA__VLOCLK | SELS__DCOCLK | SELM__DCOCLK;
+      CSCTL3 = DIVA__1 | DIVS__1 | DIVM__1;     // Set all dividers
+      CSCTL0_H = 0;                             // Lock CS registers
+
+      // initialize PWM timers
+      TA0CCR0 = 1250 - 1; // Period
+      TA0CCTL1 = OUTMOD_7; // Output = Reset/Set
+      TA0CCR1 = 625 - 1; // 50% Duty Cycle
+      TA0CTL = TBSSEL__SMCLK + MC__UP; // SMCLK, Up mode
+
+      TA1CCR0 = 4000; // Period for debouncing
+      TA1CCTL0 |= CCIE; // Compare mode
+      TA1CTL |= TBSSEL__SMCLK + MC__UP; // SMCLK, Up mode
+}

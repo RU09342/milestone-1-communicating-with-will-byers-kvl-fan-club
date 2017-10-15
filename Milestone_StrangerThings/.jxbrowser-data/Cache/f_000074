@@ -1,0 +1,326 @@
+[
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfyH2bXhqakKkw&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Benchmark Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "This example gathers and prints benchmark timing data for some representative SYS/BIOS APIs.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfyH2bXhqakKkw",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfyH2bXhqakKkw?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Benchmark Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfyH2bXhqakKkw/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfysxJwfwBk_yw&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "C++ Example (bigtime)",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "In this program, C++ is used to create a real-time clock/calendar.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfysxJwfwBk_yw",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfysxJwfwBk_yw?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "C++ Example (bigtime)",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfysxJwfwBk_yw/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfybt-aazYI3RY&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Clock Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "The clock example shows how to use the ti.sysbios.knl.Clock module to create one-shot and periodic Clock Instances. Clock Instances are essentially functions that run after a certain number of Clock ticks.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfybt-aazYI3RY",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfybt-aazYI3RY?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Clock Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfybt-aazYI3RY/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfysW7pWiwINTE&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Error Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "This example shows how to use Error_Blocks to catch runtime errors. An Error_Block is passed to Task_create() and then checked for create failure. When no Error_Block is passed, the application will terminate when an error occurs. The error.cfg file shows how to plug an error hook.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfysW7pWiwINTE",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfysW7pWiwINTE?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Error Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfysW7pWiwINTE/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfyRDMOHoUI5_8&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Event Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "The event example shows how to use the ti.sysbios.knl.Event module. The ti.sysbios.knl.Event module solves the 'Wait on Multiple' problem. In this example a reader task waits on several events.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfyRDMOHoUI5_8",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfyRDMOHoUI5_8?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Event Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfyRDMOHoUI5_8/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfyQhnYonGFG1w&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Hello Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "The hello example serves as a basic sanity check program for SYS/BIOS. It demonstrates how to print the string 'hello world' to stdout.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfyQhnYonGFG1w",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfyQhnYonGFG1w?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Hello Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfyQhnYonGFG1w/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfykZzeZaPXK64&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Memory Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "This example shows the use of xdc.runtime.Memory module and different xdc.runtime.IHeap implementations to manage memory. A system heap is created statically using ti.sysbios.heaps.HeapMem.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfykZzeZaPXK64",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfykZzeZaPXK64?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Memory Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfykZzeZaPXK64/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfydNiFDxAxkjI&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Task Mutex Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "This example shows the use of two tasks and one semaphore to protect data access.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfydNiFDxAxkjI",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfydNiFDxAxkjI?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Task Mutex Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfydNiFDxAxkjI/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  },
+  {
+    "downloadLink": "api/bundle?vid=tirtos_msp43x__2.20.00.06&download=true&analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "makeofflineLink": "api/bundles?vids=tirtos_msp43x__2.20.00.06",
+    "removeofflineLink": "api/resources?id=hfy2FDw8YrJV1Y&path=Software/TI-RTOS for MSP430/Development Tools/MSP-EXP430FR6989/Kernel Examples&removeoffline=true",
+    "name": "Swi Example",
+    "resourceType": "projectSpec",
+    "coreTypes": [
+      "MSP430FR6989"
+    ],
+    "devtools": [
+      "MSP-EXP430FR6989"
+    ],
+    "description": "The swi example shows how to use the ti.sysbios.knl.Swi module. It demonstrates how the various Swi APIs work.",
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "_id": "hfy2FDw8YrJV1Y",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "link": "api/linkTo/hfy2FDw8YrJV1Y?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples&extname=.projectspec",
+    "package": "TI-RTOS for MSP430",
+    "packageId": "tirtos_msp43x",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43x__2.20.00.06",
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "allowPartialDownload": false,
+    "linkType": "local",
+    "_originalJsonFile": "tirtos_msp43x_2_20_00_06/content.tirex.json",
+    "includedFilesForDownload": [],
+    "type": "resource",
+    "text": "Swi Example",
+    "url": "/api/resources?devtool=MSP-EXP430FR6989&package=c2000ware_software_package__1.00.02.00::com.ti.MMWAVE_SDK__01.00.00.05::com.ti.SAIL__1.10.00.06::com.ti.AZURE_CC32XX__1.00.00.10::com.ti.AWS_CC32XX__1.10.00.07::com.ti.SIMPLELINK_CC13X0_SDK__1.50.00.08::com.ti.SIMPLELINK_CC2640R2_SDK__1.40.00.45::com.ti.mmwave_training__1.4.3::sitara__1.02.00.00::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.20.00.42::com.ti.SIMPLELINK_MSP432_SDK__1.50.00.12::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.40.00.02::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.40.00.50::com.ti.SIMPLELINK_CC32XX_SDK__1.50.00.06::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::tirtos_simplelink__2.13.01.09::tm4c__2.1.3.156::tirtos_tivac__2.16.00.08::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::xdctools__3.50.02.20::msp430ware__3.80.01.01::sysbios__6.50.01.12&path=Software/TI-RTOS%20for%20MSP430/Development%20Tools/MSP-EXP430FR6989/Kernel%20Examples",
+    "importProject": "api/importProject/hfy2FDw8YrJV1Y/MSP430FR6989?analyticsDevice=undefined&analyticsDevtool=MSP-EXP430FR6989&analyticsPath=Software%2FTI-RTOS%20for%20MSP430%2FDevelopment%20Tools%2FMSP-EXP430FR6989%2FKernel%20Examples",
+    "packageOrder": 85
+  }
+]
