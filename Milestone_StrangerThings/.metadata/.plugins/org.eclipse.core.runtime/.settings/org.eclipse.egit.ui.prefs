@@ -1,2 +1,2 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Uploaded my version of code so far. FRAM waitstate.&\#x0A;&\#x0A;Signed-off-by\: Damon Boorstein &lt;boorsteid4@students.rowan.edu&gt;&\#x0A;</message>\r\n<message>Updated code.</message>\r\n</messages>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Updated code. Includes FRAM waitstate.&\#x0A;&\#x0A;Signed-off-by\: Damon Boorstein &lt;boorsteid4@students.rowan.edu&gt;</message>\r\n<message>Uploaded my version of code so far. FRAM waitstate.&\#x0A;&\#x0A;Signed-off-by\: Damon Boorstein &lt;boorsteid4@students.rowan.edu&gt;&\#x0A;</message>\r\n<message>Updated code.</message>\r\n</messages>
 eclipse.preferences.version=1
