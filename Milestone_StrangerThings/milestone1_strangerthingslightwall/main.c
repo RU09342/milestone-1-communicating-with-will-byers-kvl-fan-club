@@ -58,7 +58,7 @@ void __attribute__ ((interrupt(USCI_A0_VECTOR))) USCI_A0_ISR (void)
 }
 
 void initGPIO(void){
-    // Enable primary module function (UART mode) on RXD and TXD pins
+    // Enable primary module function (PWM) on RXD and TXD pins
     P4SEL1 &= ~RECEIVE;             // P4.3 = RXD
     P4SEL0 |= RECEIVE;
 
