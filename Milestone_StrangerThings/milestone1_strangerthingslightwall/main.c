@@ -7,23 +7,22 @@
 
 #include <msp430fr6989.h>
 
-#define RECEIVE     BIT3;
-#define TRANSMIT    BIT1;
-#define LED2        BIT7;
-#define LED1        BIT0;
+#define RECEIVE     BIT1
+#define TRANSMIT    BIT0
+#define RED         BIT5
+#define GREEN       BIT6
+#define BLUE        BIT7
 
-void initGPIO();
-void initTimer();
-void initUART();
+void initGPIO(void);
+void initTimer(void);
+void initUART(void);
+
+unsigned int count = 0;
 
 int main(void)
 {
 	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
 	PM5CTL0 &= ~LOCKLPM5;       // Disable GPIO default high-impedance mode
-	//FR2xxx, FR4xxx, FR58xx, FR59xx, FR6xxx devices
-    // Configure one FRAM waitstate as required by the device datasheet for MCLK
-    // operation beyond 8MHz _before_ configuring the clock system.
-	FRCTL0 = FWPW | NWAITS0; // Change the NACCESS_x value to add the right amount of waitstates, FWPW is the FRAM write password
 
     initGPIO();            // initialize GPIO
     initTimer();           // initialize Timer module
@@ -31,23 +30,40 @@ int main(void)
 
     __bis_SR_register(LPM3_bits + GIE);     // enter LPM3, interrupts enabled
     __no_operation();                       // for debugging
+    return 0;
 }
 
-#if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)
 #pragma vector=USCI_A0_VECTOR
 __interrupt void USCI_A0_ISR(void)
-#elif defined(__GNUC__)
-void __attribute__ ((interrupt(USCI_A0_VECTOR))) USCI_A0_ISR (void)
-#else
-#error Compiler not supported!
-#endif
 {
   switch(__even_in_range(UCA0IV, USCI_UART_UCTXCPTIFG))
   {
     case USCI_NONE: break;
     case USCI_UART_UCRXIFG:
-      while(!(UCA0IFG&UCTXIFG));
-      UCA0TXBUF = UCA0RXBUF;
+        switch(count){
+          case 0:
+              while(!(UCA0IFG&UCTXIFG));
+                  UCA0TXBUF = (int)UCA0RXBUF-3; // '(int)' converts to integer subtraction
+              __no_operation();
+              break;
+          case 1:
+              TB0CCR4 = UCA0RXBUF;
+              __no_operation();
+              break;
+          case 2:
+              TB0CCR5 = UCA0RXBUF;
+              __no_operation();
+              break;
+          case 3:
+              TB0CCR6 = UCA0RXBUF;
+              count = 0;
+              __no_operation();
+              break;
+          default:
+              UCA0RXBUF = UCA0RXBUF;
+              count = 0;
+              break;
+          }
       __no_operation();
       break;
     case USCI_UART_UCTXIFG: break;
@@ -59,17 +75,17 @@ void __attribute__ ((interrupt(USCI_A0_VECTOR))) USCI_A0_ISR (void)
 
 void initGPIO(void){
     // Enable primary module function (PWM) on RXD and TXD pins
-    P4SEL1 &= ~RECEIVE;             // P4.3 = RXD
-    P4SEL0 |= RECEIVE;
-
-    P2SEL1 &= ~TRANSMIT;            // P2.1 = TXD
-    P2SEL0 |= TRANSMIT;
+    P2SEL0 |= BLUE+GREEN+RED+TRANSMIT+RECEIVE;         // P2.0 = TXD, P2.1 = RXD
+    P2SEL1 &= ~(BLUE+GREEN+RED+TRANSMIT+RECEIVE);
+    P2DIR |= RED+GREEN+BLUE;            // P2.5 RED, P2.6 GREEN, P2.7 BLUE
 
     // Initialize unused ports to reduce current consumption
-    P1DIR = LED1;                       /* Port 1 */
-    P1OUT &= ~LED2;
+    P1DIR = 0xFF;                       /* Port 1 */
+    P1OUT = 0x00;
     P3DIR = 0xFF;                       /* Port 3 */
     P3OUT = 0x00;
+    P4DIR = 0xFF;                       /* Port 4 */
+    P4OUT = 0x00;
     P5DIR = 0xFF;                       /* Port 5 */
     P5OUT = 0x00;
     P6DIR = 0xFF;                       /* Port 6 */
@@ -78,8 +94,8 @@ void initGPIO(void){
     P7OUT = 0x00;
     P8DIR = 0xFF;                       /* Port 8 */
     P8OUT = 0x00;
-    P9DIR = LED2;                       /* Port 9 */
-    P9OUT &= ~LED2;
+    P9DIR = 0xFF;                      /* Port 9 */
+    P9OUT = 0x00;
     PADIR = 0xFF;                       /* Port A */
     PAOUT = 0x00;
     PBDIR = 0xFF;                       /* Port B */
@@ -102,10 +118,16 @@ void initTimer(){
       CSCTL0_H = 0;                             // Lock CS registers
 
       // PWM timer initialization
-      TA0CCR0 = 255;            // Period, 100% Duty Cycle
-      TA0CCTL1 = OUTMOD_7;      // Output = Reset/Set
-      TA0CCR1 = 122;            // initialize to 50% Duty Cycle
-      TA0CTL = TASSEL__SMCLK + MC__UP + ID__4; // SMCLK/4 = ~4usec, Up mode
+      TB0CCR0 = 255;            // Period, 100% Duty Cycle
+      TB0CCTL1 = OUTMOD_7;      // Output = Reset/Set
+      TB0CCR1 = 122;            // initialize to 50% Duty Cycle
+      TB0CCTL4 = OUTMOD_7;
+      TB0CCR4 = 122;
+      TB0CCTL5 = OUTMOD_7;
+      TB0CCR5 = 122;
+      TB0CCTL6 = OUTMOD_7;
+      TB0CCR6 = 122;
+      TB0CTL = TBSSEL__SMCLK + MC__UP + ID__8; // SMCLK/4 = ~4usec, Up mode
 }
 
 void initUART(){
@@ -121,10 +143,10 @@ void initUART(){
     //  Fractional portion = 0.083
     //  User's Guide Table 21-4: UCBRSx = 0x04
     //  UCBRFx = int ( (52.083-52)*16) = 1
-    UCA0BR0 = 52;                             // 8000000/16/9600
+    UCA0BR0 = 6;                             // 8000000/16/9600
     UCA0BR1 = 0x00;
     UCA0MCTLW |= UCOS16 | UCBRF_1 | 0x4900;
-    UCA0CTLW0 &= ~UCSWRST;                    // Initialize eUSCI
+    UCA0CTLW0 &= ~(UCSWRST + UCSYNC);                    // Initialize eUSCI
     UCA0IE |= UCRXIE;                         // Enable USCI_A0 RX interrupt
 }
 
