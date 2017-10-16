@@ -8,16 +8,16 @@
 
 
 % Enter the title of either the lab or some other title you think fits
-\title{Application Note Template}
+\title{Milestone 1: Communicating with Will Byers}
 
 % Place you team members here
-\author{Russell Trafford and Phil Mease}
+\author{D. Boorstein and B. Nugent}
 
 
 
 
 \company{Rowan University}
-\confidential{\textbf{-- ECE 09.201: Lab X --}}
+\confidential{\textbf{-- ECE 09.341: Milestone 1 --}}
 
 
 % Place the packages you want to use here.
@@ -29,41 +29,56 @@
 \begin{document}
 \maketitle
 \section{Abstract}
-As with normal lab reports, your application note should begin with an abstract talking about the overall experiment performed and what was achieved in the scope of this lab. Typically you want to limit this to about a paragraph, and you want to try to draw the reader into reading your work. Make sure you state the problem trying to be solved.
+% As with normal lab reports, your application note should begin with an abstract talking about the overall experiment performed and what was achieved in the scope of this lab. Typically you want to limit this to about a paragraph, and you want to try to draw the reader into reading your work. Make sure you state the problem trying to be solved.
+
+An RGB LED node which accepts a string of hex values and produces a pulse-width modulated output signal was implemented using the MSP430FR6989 microprocessor. The node could be chained with similar RGB LED nodes to produce complex signals. This was done to emulate the famous scene in the Netflix\copyright series \textit{Stranger Things} in which the character Will Byers communicates to his mother using a string of lights on a wall.
 
 
 \section{Introduction}
-In this part of the App Note, you will want to introduce the problem to the reader. This is normally the part where papers talk about ``Most everyone comes in contact with an audio amplifier circuit at least once a day. Due to the prevalence of these circuits, it is important...'' For example, in Lab 2 you looked at two main problems. The first was the impact of loading on an amplifier circuit by adding a speaker. The second was looking at volume control between a loaded and``unloaded" circuit. You \textbf{Do not} want to to talk about your results. 
+% In this part of the App Note, you will want to introduce the problem to the reader. This is normally the part where papers talk about ``Most everyone comes in contact with an audio amplifier circuit at least once a day. Due to the prevalence of these circuits, it is important...'' For example, in Lab 2 you looked at two main problems. The first was the impact of loading on an amplifier circuit by adding a speaker. The second was looking at volume control between a loaded and``unloaded" circuit. You \textbf{Do not} want to to talk about your results.
+
+The Universal Asynchronous Receiver-Transmitter (UART) device embedded in the MSP430 family of devices is useful for human-machine interfacing. UART enables serial communication between an operator and the hardware, allowing the operator to send a string of recognizable characters to the microprocessor and produce a unique output.\\
+
+\noindent Probably the simplest task to perform using UART character echoing. The hardware UART in the microprocessor can be configured to transmit the characters it receives. A perhaps more challenging task is to transmit only a set of the received characters and perform a separate task in parallel.\\
+
+\noindent In this milestone project, the objective is to emulate a famous scene in the Netflix\copyright series \textit{Stranger Things} using RGB LEDs and RGB LED driver nodes. This is implemented using the MSP430FR6989 microprocessor.
 
 \section{Background}
-This is where you can talk about the background theory of the devices you are using and any other applicable theory. We are not asking you to start out by saying ``In the beginning, there were only electrons'', but you also do not want to go over your audiences head. The best way I can recommend tuning your writing is  write your App note for someone that was in your shoes when you first were told that you had a lab. For the first few labs, you will probably have to talk about ``Our lord and savior Ohm and his one commandment'' (which much like the actual thing has many interpretations), but as the course goes on, you will \underline{hopefully} be able to begin to talk about more theory.
-\\
-\subsection{Subsections}
-Do not be afraid to use subsections if chunks of your background need to be explained or if you think it will better help the flow of the report. Just do not make every sentence its own subsection.
-\subsection{Equations}
-One of the reasons why I would like you all to start learning LaTeX is because writing equations within it are so simple. When you first start out, it may seem confusing to write out your equations in Code, but when you get used to it, you can make very good looking equations without requiring that much work on your end. \textbf{\underline{YOU SHOULD}} number your equations so that they can be referenced in your report. Instead of relying on saying ``In the equation below'', you should be writing ``As can be seen Equation \ref{eq:complex}''. This explicit listing basically eliminates all confusion the reader could have in following your work.
+% This is where you can talk about the background theory of the devices you are using and any other applicable theory. We are not asking you to start out by saying ``In the beginning, there were only electrons'', but you also do not want to go over your audiences head. The best way I can recommend tuning your writing is  write your App note for someone that was in your shoes when you first were told that you had a lab. For the first few labs, you will probably have to talk about ``Our lord and savior Ohm and his one commandment'' (which much like the actual thing has many interpretations), but as the course goes on, you will \underline{hopefully} be able to begin to talk about more theory.
+% \\
+% \subsection{Subsections}
+% Do not be afraid to use subsections if chunks of your background need to be explained or if you think it will better help the flow of the report. Just do not make every sentence its own subsection.
+% \subsection{Equations}
+% One of the reasons why I would like you all to start learning LaTeX is because writing equations within it are so simple. When you first start out, it may seem confusing to write out your equations in Code, but when you get used to it, you can make very good looking equations without requiring that much work on your end. \textbf{\underline{YOU SHOULD}} number your equations so that they can be referenced in your report. Instead of relying on saying ``In the equation below'', you should be writing ``As can be seen Equation \ref{eq:complex}''. This explicit listing basically eliminates all confusion the reader could have in following your work.
 
-\begin{equation}
-\int_0^\infty \cos(\alpha + j\omega) = z
-\label{eq:complex}
-\end{equation}
+% \begin{equation}
+% \int_0^\infty \cos(\alpha + j\omega) = z
+% \label{eq:complex}
+% \end{equation}
 
 
-\subsection{Figures}
-When it comes to figures, there are a few things that can really make or break a technical document. First off, all your circuit designs \textbf{SHOULD} be made on your own in TINA-TI or its equivalent whenever possible. For example, Fig. \ref{fig:MessyCircuit} is hand drawn and honestly is very hard to follow what is going on.
+% \subsection{Figures}
+% When it comes to figures, there are a few things that can really make or break a technical document. First off, all your circuit designs \textbf{SHOULD} be made on your own in TINA-TI or its equivalent whenever possible. For example, Fig. \ref{fig:MessyCircuit} is hand drawn and honestly is very hard to follow what is going on.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale = .5]{pease.png}
-\caption{Messy Hand Drawn circuit that is hard to follow.}
-\label{fig:MessyCircuit}
-\end{figure}
+% \begin{figure}[h]
+% \centering
+% \includegraphics[scale = .5]{pease.png}
+% \caption{Messy Hand Drawn circuit that is hard to follow.}
+% \label{fig:MessyCircuit}
+% \end{figure}
 
-\noindent
-Much like the equations, figures need to have numbering so that you can reference them properly within the document. Cite your images whenever you add an image that was not created on your own.
+% \noindent
+% Much like the equations, figures need to have numbering so that you can reference them properly within the document. Cite your images whenever you add an image that was not created on your own.
 
-\subsubsection{\LaTeX \hspace{0ex} vs. Word/Docs}
-It is worth mentioning that one of the other awesome benefits with using LaTeX is that it will semi-automatically number your equations and figures for you. Word and Docs should be able to do this as well, but the process can become very tiring when you have many equations and figures within a document. 
+% \subsubsection{\LaTeX \hspace{0ex} vs. Word/Docs}
+% It is worth mentioning that one of the other awesome benefits with using LaTeX is that it will semi-automatically number your equations and figures for you. Word and Docs should be able to do this as well, but the process can become very tiring when you have many equations and figures within a document.
+
+Character echoing through hardware UART was explored in \href{https://github.com/RU09342/lab-1-intro-to-git-c-and-msp430-boorsteid4}{Lab 1: Introduction to C, Git, and the MSP430}. The example code provided initialized proper registers to enable UART on a series of MSP430 devices. It would have been possible, using serial communication software, to send a string of characters to the microprocessor's UART module through a terminal window and receive an echoed-back string of characters in the terminal window. Unfortunately, the example code was flawed: no characters were returned from the microprocessor. However incorrect the code, it nonetheless served as a good starting point for implementing UART.\\
+
+\noindent The steps for initializing UART are not much different than those for GPIO or timers. Like these, UART has its own interrupt vector registers and associated interrupt flags. Many product lines in the MSP430 family of devices have embedded in the hardware a Universal Serial Communication Interface (USCI), a UART module. USCI architecture is generally shared among the devices, however some contain an updated module, the Enhanced USCI (eUSCI).
+
+\subsection{USCI and eUSCI Modules}
+The eUSCI module is essentially the updated version of the USCI, and can be in the MSP430FR2311, FR5994, and FR6989 models.
 
 \section{Evaluation and Results}
 This is where you will want to layout the steps you took to simulate, test, and evaluate the circuits in the lab. It is \textbf{\underline{SUPER IMPORTANT}} that you begin talking like engineers in these reports. This means two major things. First, you need to utilize \textbf{quantitative} language over \textbf{qualitative} language. Saying things like ``it worked, or it made sound'' really mean nothing. What is ``worked'' or what is your definition of success? Without laying this out, you basically have no grounds for your report. Utilize numbers and measurements to give your statements support rather than just putting out empty claims.
