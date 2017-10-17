@@ -4,4 +4,4 @@ Intro. to Embedded Systems Section 2,
 Rowan University, 
 Fall 2017*
 
-Link to App. Note: [Click here.](../"Milestone 1 Report.pdf")
+Link to App. Note: [Click here.]("Milestone 1 Report.pdf")
